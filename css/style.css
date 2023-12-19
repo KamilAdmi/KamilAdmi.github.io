@@ -1,10 +1,10 @@
 @import url("normalize.css");
 @font-face {
-	font-family: @r;
+	font-family: Rubik;
 	src: url("../fonts/Rubik/Rubik-VariableFont_wght.ttf");
 }
 @font-face {
-	font-family: @l;
+	font-family: Lato;
 	src: url("../fonts/Lato/Lato-Regular.ttf");
 }
 .main-container {
@@ -15,7 +15,6 @@
 	align-items: center;
 	flex-direction: column;
 	justify-content: start;
-	overflow-x:hidden;
 }
 .section {
 	display: flex;
@@ -62,7 +61,7 @@
 }
 .menu__item {
 	color: #FFF;
-	font-family: @r;
+	font-family: Rubik;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
@@ -79,7 +78,7 @@
 }
 .button__sign {
 	color: #FFF;
-	font-family: @r;
+	font-family: Rubik;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 500;
@@ -109,7 +108,7 @@
 
 .title {
 	color: #FFF;
-	font-family: @l;
+	font-family: Lato;
 	font-size: 40.6px;
 	font-style: normal;
 	font-weight: 700;
@@ -118,7 +117,7 @@
 .subtitle {
 	color: #FFF;
 	margin: 15px 0px 0px 0px;
-	font-family: @r;
+	font-family: Rubik;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
@@ -126,7 +125,7 @@
 }
 .banner__title {
 	color: #FFF;
-	font-family: @l;
+	font-family: Lato;
 	width: 770px;
 	height: 140px;
 	font-size: 44.2px;
@@ -178,7 +177,7 @@
 }
 .box-container__title {
 	color: #FFF;
-	font-family: @l;
+	font-family: Lato;
 	margin: 0px;
 	font-size: 24px;
 	font-style: normal;
@@ -293,7 +292,7 @@
 }
 .box-container__title--76 {
 	color: #FFF;
-	font-family: @l;
+	font-family: Lato;
 	margin: 76px 0px 0px 0px;
 	font-size: 24px;
 	font-style: normal;
@@ -483,7 +482,7 @@
 }
 .news_placeholder {
 	color: #A5A5A5;
-	font-family: @r;
+	font-family: Rubik;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
@@ -520,7 +519,7 @@
 	margin: auto auto 0px auto;
 	color: #FFF;
 	text-align: center;
-	font-family: @r;
+	font-family: Rubik;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
@@ -528,7 +527,7 @@
 }
 .footer_p {
 	color: #FFF;
-	font-family: @r;
+	font-family: Rubik;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
@@ -545,7 +544,7 @@
 .footer_h1 {
 	margin: 0px 0px 30px 0px;
 	color: #FFF;
-	font-family: @l;
+	font-family: Lato;
 	font-size: 20px;
 	font-style: normal;
 	font-weight: 600;
@@ -555,7 +554,7 @@
 .footer_h2 {
 	margin: 0px 0px 20px 0px;
 	color: #FFF;
-	font-family: @r;
+	font-family: Rubik;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
@@ -564,7 +563,7 @@
 .footer_h2-1 {
 	margin-bottom: 10px;
 	color: #FFF;
-	font-family: @r;
+	font-family: Rubik;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 500;
@@ -581,7 +580,7 @@
 .footer_h2-0 {
 	margin-bottom: 5px;
 	color: #FFF;
-	font-family: @r;
+	font-family: Rubik;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
@@ -590,7 +589,7 @@
 .footer_h2-2 {
 	margin: 0px;
 	color: #FFF;
-	font-family: @r;
+	font-family: Rubik;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
