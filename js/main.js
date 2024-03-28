@@ -1,5 +1,6 @@
-import {SmartBox} from "./SmartBox.min.js"
+import {DynamicBox} from "../../MyPlugins/DynamicBox.js"
+import {Get} from "../../MyPlugins/EasyFetch.js"
 
-let main = new SmartBox(document.querySelector("main"));
+let Main = new DynamicBox(document.querySelector("main"));
 
-main.Hide("")
+Main.Replace(await Get("Pages/LangSelect.html"));

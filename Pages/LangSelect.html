@@ -1,0 +1,35 @@
+<div id="LangSelect">
+	<p>Hi, let's start by choosing a language...▎</p>
+	<div id="form">
+		<select>
+			<option disabled selected hidden>Language</option>
+			<option>Русский</option>
+		</select>
+		<button>Next</button>
+	</div>
+</div>
+
+<style>
+	#LangSelect {
+		height: 50%;
+		width: 100%;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	#form {
+		height: 30%;
+		width: 90%;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	#form > button {
+		align-self: end;
+	}
+</style>
