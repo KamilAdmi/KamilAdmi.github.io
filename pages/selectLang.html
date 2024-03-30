@@ -1,0 +1,7 @@
+<h1>Hi, let's start by choosing a language...</h1>
+<select onchange="document.querySelector('button').disabled = false;">
+	<option selected hidden>Language</option>
+	<option value="ru">Русский</option>
+	<option value="en">English</option>
+</select>
+<button class="toRight" onclick="writeCookie('lang', document.querySelector('select').value); setup();" disabled>Next</button>

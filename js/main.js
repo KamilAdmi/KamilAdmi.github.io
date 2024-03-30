@@ -1,6 +1,14 @@
-import {DynamicBox} from "../../MyPlugins/DynamicBox.js"
-import {Get} from "../../MyPlugins/EasyFetch.js"
+const box = new dynamicBox(document.querySelector("main"));
 
-let Main = new DynamicBox(document.querySelector("main"));
+setup();
 
-Main.Replace(await Get("Pages/LangSelect.html"));
+function setup() {
+	if(!readCookie("lang")) getText("pages/selectLang.html").then((html) => box.replace(html));
+	else if (!readCookie("mode")) getText("pages/selectMode.html").then((html) => box.moveLeft(html));
+	else main();
+}
+
+function main() {
+	alert(document.cookie);
+	box.moveUp("<h1>Пока всё :)</h1>");
+}
